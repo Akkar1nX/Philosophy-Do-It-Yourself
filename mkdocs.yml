@@ -1,0 +1,50 @@
+site_name: Philosophy Do It Yourself
+site_url: https://sitename.example
+
+theme: 
+  name: material
+  language: zh
+  static_templates:
+    - 404.html
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+  
+  favicon: images/favicon.ico
+
+  palette: 
+  # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark Mode
+      primary: indigo
+      accent: indigo
+
+  # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light Mode
+      primary: deep purple
+      accent: indigo
+
+# TODO
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - footnotes
+      
+# TODO 
+# Social & Analytics
+extra:
+  analytics:
+    provider: google
+    property: 
+
+# TODO
+nav:
+  - 前言: index.md
+  - 如何使用本书: guide.md
