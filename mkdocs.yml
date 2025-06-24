@@ -1,5 +1,8 @@
 site_name: Philosophy Do It Yourself
-site_url: https://sitename.example
+site_url: https://akkar1nx.github.io/Philosophy-Do-It-Yourself/
+site_author: Akkar1n
+repo_name: Philosophy-Do-It-Yourself
+repo_url: https://github.com/Akkar1nX/Philosophy-Do-It-Yourself
 
 theme: 
   name: material
@@ -7,11 +10,12 @@ theme:
   static_templates:
     - 404.html
 
+  icon:
+    repo: fontawesome/brands/github
+
   font:
     text: Roboto
     code: Roboto Mono
-  
-  favicon: images/favicon.ico
 
   palette: 
   # Dark Mode
@@ -27,8 +31,19 @@ theme:
       toggle:
         icon: material/weather-night
         name: Light Mode
-      primary: deep purple
+      primary: indigo
       accent: indigo
+
+  features:
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - header.autohide
+    - search.highlight
+    - search.suggest
 
 # TODO
 markdown_extensions:
@@ -42,9 +57,25 @@ markdown_extensions:
 extra:
   analytics:
     provider: google
-    property: 
+    property: G-7X2VQSF62R
 
 # TODO
 nav:
-  - 前言: index.md
-  - 如何使用本书: guide.md
+  - 前言: "index.md"
+  - 使用指南: "guide.md"
+  - 哲学导论: "introduction_to_philosophy.md"
+  - 哲学史基础: "history_of_philosophy.md"
+  - 逻辑学基础: "basic_logic.md"
+  - 哲学阅读与写作: "philosophy_reading_writing.md"
+  - 文学阅读: "literature_recommendations.md"
+  - 高校与学术: "academic_resources.md"
+  - 认识论: "epistemology.md"
+  - 形而上学: "metaphysics.md"
+  - 伦理学: "ethics.md"
+  - 心灵哲学: "philosophy_of_mind.md"
+  - 政治哲学: "political_philosophy.md"
+  - 语言哲学: "philosophy_of_language.md"
+  - 科学哲学: "philosophy_of_science.md"
+  - 宗教哲学: "philosophy_of_religion.md"
+  - 逻辑学: "logic.md"
+  - 美学: "aesthetics.md"
