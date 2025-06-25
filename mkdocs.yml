@@ -45,6 +45,9 @@ theme:
     - search.highlight
     - search.suggest
 
+  custom_dir: overrides
+
+
 # TODO
 markdown_extensions:
   - attr_list
