@@ -1,3 +1,8 @@
+---
+comments: true
+---
+
+
 # 前言
 
 欢迎来到 **Philosophy Do It Yourself**。
